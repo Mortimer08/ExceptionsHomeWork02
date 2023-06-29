@@ -11,11 +11,9 @@ public class Task01 {
         do {
             numberIsCorrect = false;
             try {
-
                 inputNumber();
                 numberIsCorrect = true;
                 System.out.println("Number is correct");
-
             } catch (InvalidNumberException ex) {
                 System.out.println(ex.getMessage());
             }
